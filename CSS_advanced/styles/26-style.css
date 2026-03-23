@@ -1,0 +1,26 @@
+/* 26. Add border radius to images */
+
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* ... (Garde TOUT le contenu de Normalize.css ici) ... */
+
+/* ... (Garde TOUS tes styles précédents jusqu'à Sections & Cards) ... */
+
+/* Sections & Cards */
+
+.card-testimonial {
+  text-align: center;
+}
+
+.card-testimonial .card-avatar {
+  border-radius: 50%;
+  width: 10rem;
+  height: 10rem;
+}
+
+.card-testimonial .card-quote cite {
+  display: block;
+  padding-top: 1rem;
+  color: var(--color-primary);
+}
+
+/* ... (Reste du fichier identique à la tâche 25) ... */
